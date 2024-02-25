@@ -41,7 +41,7 @@ function raizcuadrada(num){
 
 //Función principal del programa 
 function calculadora(){
-    var option = prompt (
+    var opcion = prompt (
       "Elija una opción:\n1. Suma\n2. Resta\n3. Multiplicacion\n4. División\n5. Factorial\n6. Exponente\n7. Raiz Cuadrada"
     );
     var num1 = parseFloat(prompt("Ingrese el primer número:"));
@@ -53,7 +53,7 @@ function calculadora(){
 
     switch(opcion){
         case "1":
-          resultado = sumar(num1, num2);
+          resultado = calculadorsumar(num1, num2);
           break;
         case "2":
           resultado = restar(num1, num2);
@@ -78,9 +78,9 @@ function calculadora(){
           resultado = "Opción no válida";
           break;                       
     }
-
+    return resultado
     alert ("El resultado es: " + resultado);
 }
 
 // Llamar a la función principal
-calculadora()
+console.log(calculadora())

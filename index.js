@@ -36,7 +36,7 @@ function exponente(num1,num2){
 
 //Función principal del programa 
 function calculadora(){
-    var option = prompt (
+    var opcion = prompt (
       "Elija una opción:\n1. Suma\n2. Resta\n3. Multiplicacion\n4. División\n5. Factorial\n6. Exponente\n7. Raiz Cuadrada"
     );
     var num1 = parseFloat(prompt("Ingrese el primer número:"));
@@ -78,4 +78,4 @@ function calculadora(){
 }
 
 // Llamar a la función principal
-calculadora()
+console.log(calculadora())

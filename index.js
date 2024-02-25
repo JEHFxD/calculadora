@@ -35,7 +35,7 @@ function exponente(num1,num2){
 }
 
 //Funcion para calcular la raiz cuadrada de un número
-function raizcuadrada(num){
+function raizCuadrada(num){
     return Math.sqrt(num);
 }
 

@@ -28,6 +28,12 @@ function factorial(num){
         return (num * factorial(num-1))
     }
 }
+
+//Función para calcular un exponente
+function exponente(num1,num2){
+    return num1**num2;
+}
+
 //Función principal del programa 
 function calculadora(){
     var option = prompt (

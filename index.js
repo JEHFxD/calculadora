@@ -15,7 +15,18 @@ function multiplicar(num1,num2){
 
 //Función para dividir dos números
 function dividir(num1,num2){
-    return num1/num2
+    return num1/num2;
+}
+
+//Función para calcular un factorial de un número
+function factorial(num){
+    if (num <0)
+        return -1;
+    else if (num == 0)
+        return 1;
+    else{
+        return (num * factorial(num-1))
+    }
 }
 //Función principal del programa 
 function calculadora(){
